@@ -38,4 +38,6 @@ BOO UnitReagentDisp::exeSip()
 	}
 }
 
-
+BOO UnitReagentDisp::exeMove()
+{
+}
