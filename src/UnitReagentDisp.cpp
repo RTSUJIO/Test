@@ -25,5 +25,8 @@ UnitReagentDisp::~UnitReagentDisp()
 }
 
 
-
+BOO UnitReagentDisp::exeSip()
+{
+	//‹zˆø‚·‚é
+}
 

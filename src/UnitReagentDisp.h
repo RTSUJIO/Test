@@ -11,4 +11,5 @@ private:
 public:
 				UnitReagentDisp							(LPTSTR name, DWORD stackSize);		//!< コンストラクタ
 	virtual		~UnitReagentDisp							();									//!< デストラクタ
+	BOOL	exeSip();
 };
