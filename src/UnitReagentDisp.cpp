@@ -28,6 +28,11 @@ UnitReagentDisp::~UnitReagentDisp()
 BOO UnitReagentDisp::exeSip()
 {
 	//吸引する
+	int SipVol = 200;
+	for(int i = 0 ; i < 10 ; i++)
+	{
+		SipVol += i;
+	}
 }
 
 
