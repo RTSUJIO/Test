@@ -1,15 +1,16 @@
-// UnitReagentDisp.h: UnitReagentDisp ŽŽ–ò•ª’ƒ†ƒjƒbƒgƒNƒ‰ƒX
+// UnitReagentDisp.h: UnitReagentDisp è©¦è–¬åˆ†æ³¨ãƒ¦ãƒ‹ãƒƒãƒˆã‚¯ãƒ©ã‚¹
 //
 //////////////////////////////////////////////////////////////////////
 
 /***********************************************************************/
-//! @class UnitBFTable     @brief BFƒe[ƒuƒ‹ƒNƒ‰ƒX
+//! @class UnitBFTable     @brief BFãƒ†ãƒ¼ãƒ–ãƒ«ã‚¯ãƒ©ã‚¹
 class UnitReagentDisp public UnitBase:
 {
 private:
 	
 public:
-				UnitReagentDisp							(LPTSTR name, DWORD stackSize);		//!< ƒRƒ“ƒXƒgƒ‰ƒNƒ^
-	virtual		~UnitReagentDisp							();									//!< ƒfƒXƒgƒ‰ƒNƒ^
+				UnitReagentDisp							(LPTSTR name, DWORD stackSize);		//!< ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿
+	virtual		~UnitReagentDisp							();									//!< ãƒ‡ã‚¹ãƒˆãƒ©ã‚¯ã‚¿
+	BOOL		exeDisp()
 	BOOL	exeSip();
 };
