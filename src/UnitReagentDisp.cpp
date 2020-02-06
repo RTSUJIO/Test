@@ -20,8 +20,11 @@ UnitReagentDisp::UnitReagentDisp(LPTSTR name,DWORD stackSize):MVarious(name,stac
 }
 
 /*****************************************************************/
-UnitReagentDisp::~UnitReagentDisp()
+UnitReagentDisp::UnitReagentDisp()
 {
+	//Testからコミット
+	int value = 0;
+	value = value+100;
 }
 
 
