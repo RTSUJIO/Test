@@ -25,5 +25,7 @@ UnitReagentDisp::~UnitReagentDisp()
 }
 
 
-
+BOOL	UnitReagentDisp::exeDisp()
+{
+}
 
